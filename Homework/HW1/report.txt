@@ -1,0 +1,114 @@
+#==============================================================================#
+#                           CS 115 HW 01 Report                               #
+#==============================================================================#
++------------------------------------------------------------------------------+
+| Fill in your name and the Stevens Honor Code pledge on the following lines.  |
+| Writing the code exactly is required for full credit.                        |
++------------------------------------------------------------------------------+
+Name:Jake Talvy
+
+Pledge:I pledge my honor that I have abided by the Stevens Honor System.
+
++------------------------------------------------------------------------------+
+| List the names and emails or classmates you discussed this homework with.    |
+| Write "None" if you worked alone. We hope you collaborate with, discuss, and |
+| help classmates.                                                             |
+|                                                                              |
+| Additionally, list any sources your consulted outside of the textbook and    |
+| slides.                                                                      |
++------------------------------------------------------------------------------+
+Collaborators:Jayden Guan jguan5@stevens.edu
+
+Sources:None
+
++------------------------------------------------------------------------------+
+| Task 1: Who is the player in the story? What is their goal?                  |
++------------------------------------------------------------------------------+
+You are the player and your goal is to get your pokemon and beat your rival in a pokemon battle.
+
++------------------------------------------------------------------------------+
+| Task 1: List 3 possible endings the player might reach.                      |
++------------------------------------------------------------------------------+
+If you choose to do nothing at the beginning of the game you lose. If you choose to run away from your trainer battle you lose. If you pick the wrong attack your rival beats you and you lose the game.
+
++------------------------------------------------------------------------------+
+| Task 1: What types of decisions would lead to those endings?                 |
++------------------------------------------------------------------------------+
+at the beginning of the game you are asked where you want to go and if you pick nothing you lose. when your rival challenges you to a trainer battle you have 3 choices, catch, run, and attack, if you pick run you lose and if you pick attack it shows 3 attacks and if you pick the wrong attack you lose.
+
++------------------------------------------------------------------------------+
+| Task 2: Give a printout of one path in your story that you found interesting.|
++------------------------------------------------------------------------------+
+What is your name? Jake
+What is your best friends name? Dylan
+you wake up, excited for the day ahead of you
+today is a special one, it's the day you get your very own pokemon from the pokemon professor
+pokemon are unique creatures with different skills and powers. And today, you get to have one of your own.
+Where will you go?
+a) The professor's lab
+b) Your best friend's house
+c) Do nothing.
+Type in your action and press <Enter>: a
+You head over to the pokemon professor's lab with your best friend Dylan and you are greeted by the professor
+Professor Juniper: Why hello Jake and Dylan, are you guys ready to recieve your very own Pokemon?
+Dylan: Go ahead Jake You can pick first
+a) The water type pokemon Oshawott
+b) The grass type pokemon Snivy
+c) The fire type pokemon Tepig
+Type in your action and press <Enter>: b
+Your party has been updated
+Snivy
+Dylan: Jake Now that we have pokemon we can finally battle each other
+You are challenged by Pokemon Trainer Dylan
+Dylan sent out Tepig
+You send out Snivy
+a) fight
+b) run
+c) catch
+Type in your action and press <Enter>: c
+You cannot catch other trainers pokemon!!!!!
+a) fight
+b) run
+c) catch
+Type in your action and press <Enter>: b
+You run away, overwhelmed by what it takes to be a pokemon trainer and give up. GAME OVER
+
++------------------------------------------------------------------------------+
+| Task 3: How did the program behave compared to what you expected? Were there |
+| any times where the story did not match what you designed?                   |
++------------------------------------------------------------------------------+
+The program behaved how I thought it would.
+
++------------------------------------------------------------------------------+
+| Task 3: What aspect of the game are you proudest of?                         |
++------------------------------------------------------------------------------+
+The game is about something I care about and a story that I am passionate about and I feel like I made what I wanted to so it didn't feel like I was doing work.
+
++------------------------------------------------------------------------------+
+| Task 3: What (if anything) did you want to change after seeing another       |
+| person play the game?                                                        |
++------------------------------------------------------------------------------+
+Nothing
+
+
++------------------------------------------------------------------------------+
+| Labor log: Log what you noticed about your experience in the process of      |
+| working on this assignment. While only 2 sentences are *required*, we        |
+| encourage you to reflect more to continue develop awareness of how you learn.|
+| For example, you may choose to include                                       |
+|    - Which strategies and/or resources you used to overcome difficulties     |
+|    - Timing: when you started the homework, how many hours you worked on it  |
+|    - Environment: where you worked on the homework, with whom, etc...        |
+|    - What you will continue and/or do differently for next homework          |
+|    - Which part you're proudest of                                           |
++------------------------------------------------------------------------------+
+Timing: I started my homework the day it was assigned and worked on it for around half an hour a day until i finished totaling around 3-4 hours of work
+I will continue to spread our my work over several days in order to avoid rushing and making mistakes as well as to make sure i can complete it on time.
+
+
++------------------------------------------------------------------------------+
+| What else would you like to share about this assignment?                     |
++------------------------------------------------------------------------------+
+Put your answer here.
+
+

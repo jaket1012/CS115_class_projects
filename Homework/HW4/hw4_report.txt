@@ -1,0 +1,84 @@
+#==============================================================================#
+#                          CS 115 Homework 4 Report                            #
+#==============================================================================#
++------------------------------------------------------------------------------+
+| Fill in your name and the Stevens Honor Code pledge on the following lines.  |
+| Failure to fill this in will result in deducted marks.                       |
++------------------------------------------------------------------------------+
+Name:Jake Talvy
+
+Pledge:I pledge my honor that I have abided by the Stevens Honor System.
+
++------------------------------------------------------------------------------+
+| If you have discussed this assignment with other students in the class, list |
+| them below (write "None" if you worked alone). Additionally, list any        |
+| additional resources you consulted.                                          |
++------------------------------------------------------------------------------+
+Collaborators:None
+
+Sources:None
+
++------------------------------------------------------------------------------+
+| Task 1: How many pixels wide and tall is small_secret_image.ppm?             |
++------------------------------------------------------------------------------+
+5 wide and 5 tall
+
++------------------------------------------------------------------------------+
+| Task 1: How many rows of image data are there? (ignoring the header)      |
++------------------------------------------------------------------------------+
+5
+
++------------------------------------------------------------------------------+
+| Task 1: How many columns of image data are there? (ignoring the header)      |
++------------------------------------------------------------------------------+
+15
+
+
++------------------------------------------------------------------------------+
+| Task 1: What are the RGB values of the top-left pixel?                       |
++------------------------------------------------------------------------------+
+255 255 255
+
++------------------------------------------------------------------------------+
+| Task 1: Explain as you would to your non-hacker friends how the RGB values  |
+| are encoded in this image format.                                            |
++------------------------------------------------------------------------------+
+They are split into 3 parts the red the green and the blue for each pixel in each column and each row.
+
+
++------------------------------------------------------------------------------+
+| Debugging Labor Log (Required): write about                                  |
+| 1. How did you locate and correct any mistakes in your code? What strategies |
+| did you use?  (At least 2 sentences)                                         |
+| 2. Which strategies for correcting your code were the most and least         |
+| effective? (At least 2 sentences)                                            |
++------------------------------------------------------------------------------+
+1. I used the error message to find where the error and what function had the error and fixed the syntax error. If it was a logic error I compared the output I was getting by printing the output or mutated list and tried to see what was being changed if anything at all and tried different ways I think would work until the mistake is fixed.
+2. Trying to guess what was going wrong instead of printing it and comparing the output to the expected output was not effective. Reproducing the error and printing out the image helped me see what a function was doing and helped me realize what the mistake was.
+
+
++------------------------------------------------------------------------------+
+| Optional Labor Log: To develop awareness of your software dev process,       |
+| we encourage you to write about and share your experience working on the     |
+| homework. For example, you may share:                                        |
+| Timing: when you started the homework, how many hours you worked on it       |
+| Environment: where you worked on the homework, with whom, etc...             |
+| What you will continue and/or do differently for next homework               |
+| What you're proudest of                                                      |
+|                                                                              |
++------------------------------------------------------------------------------+
+Put your answer here.
+
++------------------------------------------------------------------------------+
+| Did you encounter any problems while doing this assignment? If so, how did   |
+| you resolve them?                                                            |
++------------------------------------------------------------------------------+
+Put your answer here.
+
+
++------------------------------------------------------------------------------+
+| Do you have any additional comments about this assignment?                   |
++------------------------------------------------------------------------------+
+Put your answer here.
+
+
