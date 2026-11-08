@@ -1,0 +1,60 @@
+#==============================================================================#
+#                             CS 115 Lab 2 Report                              #
+#==============================================================================#
++------------------------------------------------------------------------------+
+| Fill in your name and the Stevens Honor Code pledge on the following lines.  |
+| Failure to fill this in will result in deducted marks.                       |
++------------------------------------------------------------------------------+
+Name:Jake Talvy
+
+Pledge:I pledge my honor that I have abided by the Stevens Honor System.
+
++------------------------------------------------------------------------------+
+| If you have discussed this assignment with other students in the class, list |
+| them below (write "None" if you worked alone). Additionally, list any        |
+| additional resources you consulted.                                          |
++------------------------------------------------------------------------------+
+Collaborators:None
+
+Sources:None
+
++------------------------------------------------------------------------------+
+| Task 1: Describe your testing strategy. How did you group possible inputs?   |
+| What are the edge cases?                                                     |
++------------------------------------------------------------------------------+
+I grouped the possible inputs based on the month and the date. I tested the edge cases for the months and then one in between and then 2 out of bounds and then I tested the months based on the edge cases for the months and out of bounds I knew I didn't have to test in between because that was being tested by the month tests.
++------------------------------------------------------------------------------+
+| Task 1: Which of the provided 5 implementations are correct? For the         |
+| incorrect ones, when do they give the wrong answer?                          |
++------------------------------------------------------------------------------+
+impl_3 was correct
+impl_1 gave the wrong answer when I tested (0,5)
+impl_2 gave the wrong answer when I tested (5,0)
+impl_4 gave the wrong answer when I tested (5,15) and (1,5)
+impl_5 gave the wrong answer when I tested (0,5)
++------------------------------------------------------------------------------+
+| Task 2: Describing *every step you took* to find the mistake in              |
+| vali_date_buggy_but_fixable.                                                 |
++------------------------------------------------------------------------------+
+I started by testing all of the test cases from task 1 on vali_date_buggy_but_fixable and it gave the wrong answer for when I tested (4,31) which showed me there was an error for the months that have 30 days so I looked at that part of the code and thought about what day input would return what and I found where the error was.
+
++------------------------------------------------------------------------------+
+| Task 2: Where and what was the mistake in vali_date_buggy_but_fixable?       |
++------------------------------------------------------------------------------+
+if month in (4, 6, 9, 11):
+        return day >= 30
+the return day >= 30 returns true if the date is out of bounds or equal to 30 so it should be day <= 30
+
++------------------------------------------------------------------------------+
+| Did you encounter any problems while doing this assignment? If so, how did   |
+| you resolve them?                                                            |
++------------------------------------------------------------------------------+
+No
+
+
++------------------------------------------------------------------------------+
+| Do you have any additional comments about this assignment?                   |
++------------------------------------------------------------------------------+
+I think it was helpful to learn how to test code and find errors in the code.
+
+

@@ -1,0 +1,57 @@
+#==============================================================================#
+#                             CS 115 Lab 5 Report                              #
+#==============================================================================#
++------------------------------------------------------------------------------+
+| Fill in your name and the Stevens Honor Code pledge on the following lines.  |
+| Failure to fill this in will result in deducted marks.                       |
++------------------------------------------------------------------------------+
+Name:Jake Talvy
+
+Pledge:I pledge my honor that I have abided by the Stevens Honor System.
+
++------------------------------------------------------------------------------+
+| If you have discussed this assignment with other students in the class, list |
+| them below (write "None" if you worked alone). Additionally, list any        |
+| additional resources you consulted.                                          |
++------------------------------------------------------------------------------+
+Collaborators:None
+
+Sources:None
+
++------------------------------------------------------------------------------+
+| 1. How does the coins value change for frames deeper (further down) in the   |
+| stack?                                                                       |
++------------------------------------------------------------------------------+
+when the coin is used in the use it case it return 1 + a smaller version of the problem
+
++------------------------------------------------------------------------------+
+| 2. How does the total value change for frames deeper (further down) in the   |
+| stack?                                                                       |
++------------------------------------------------------------------------------+
+in the use it cases it returns 1 + coin_change(coins, total-coins[0])
+
++------------------------------------------------------------------------------+
+| 3. What was the first return value you observed?                             |
++------------------------------------------------------------------------------+
+0
+
++------------------------------------------------------------------------------+
+| 4 and 5. Code that called the function which returned that return value      |
++------------------------------------------------------------------------------+
+the function was called with coins = () and total = 5 and it returned infinity because the total couldn't be reached with those values.
+
+
++------------------------------------------------------------------------------+
+| Did you encounter any problems while doing this assignment? If so, how did   |
+| you resolve them?                                                            |
++------------------------------------------------------------------------------+
+I kept getting 0 until I realized that something was wrong with the base cases if len(coins) == 0 return 0 and if total <= 0 return 0
+until i realized that if the conditions len(coins) == 0 and total < 0 then I will always get 0 so I added that if those are true return float('inf')
+
+
++------------------------------------------------------------------------------+
+| Do you have any additional comments about this assignment?                   |
++------------------------------------------------------------------------------+
+Put your answer here.
+
+

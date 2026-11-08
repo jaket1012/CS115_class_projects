@@ -1,0 +1,33 @@
+#==============================================================================#
+#                           CS 115 Lab 3 Report                             #
+#==============================================================================#
++------------------------------------------------------------------------------+
+| Fill in your name and the Stevens Honor Code pledge on the following lines.  |
+| Failure to fill this in will result in deducted marks.                       |
++------------------------------------------------------------------------------+
+Name:Jake Talvy
+
+Pledge:I pledge my honor that I have abided by the Stevens Honor System.
+
++------------------------------------------------------------------------------+
+| If you have discussed this assignment with other students in the class, list |
+| them below (write "None" if you worked alone). Additionally, list any        |
+| additional resources you consulted.                                          |
++------------------------------------------------------------------------------+
+Collaborators:None
+
+Sources:None
+
++------------------------------------------------------------------------------+
+| Did you encounter any problems while doing this assignment? If so, how did   |
+| you resolve them?                                                            |
++------------------------------------------------------------------------------+
+for task 1 I tried to map an avg function which took the avg of 2 numbers onto the data which returned the wrong average so I knew I had t combine all the numbers first so I made a function to add the numbers before I divided them
+
+
++------------------------------------------------------------------------------+
+| Do you have any additional comments about this assignment?                   |
++------------------------------------------------------------------------------+
+It was helpful to learn when the map, reduce, and filter functions should be used.
+
+

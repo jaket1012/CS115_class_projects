@@ -1,0 +1,139 @@
+#==============================================================================#
+#                           CS 115 Lab 7 Report                             #
+#==============================================================================#
++------------------------------------------------------------------------------+
+| Fill in your name and the Stevens Honor Code pledge on the following lines.  |
+| Failure to fill this in will result in deducted marks.                       |
++------------------------------------------------------------------------------+
+Name:Jake Talvy
+
+Pledge:I pledge my honor that I have abided by the Stevens Honor System.
+
++------------------------------------------------------------------------------+
+| If you have discussed this assignment with other students in the class, list |
+| them below (write "None" if you worked alone). Additionally, list any        |
+| additional resources you consulted.                                          |
++------------------------------------------------------------------------------+
+Collaborators:
+
+Sources:
+
+
+-----------------------------------TASK 2---------------------------------------
++------------------------------------------------------------------------------+
+| Task 2.1: What bits were printed?                                            |
+|                                                                              |
++------------------------------------------------------------------------------+
+00001010 00000000 00000000 00000000
+
+
++------------------------------------------------------------------------------+
+| Task 2.2 Is your system natively big-endian or little-endian? Describe how   |
+| you figured that out.                                                        |
+|                                                                              |
++------------------------------------------------------------------------------+
+I know my system is big-endian because i encoded 10 and it spit out 00001010 followed by only 0s which would mean it is printing out the largest byte first
+
+
++------------------------------------------------------------------------------+
+| Task 2.3 (using network byte order) What bits were printed?                   |
+|                                                                              |
++------------------------------------------------------------------------------+
+00000000 00000000 00000000 00001010
+
+
++------------------------------------------------------------------------------+
+| Task 2.4 Is the network encoding big-endian or     |
+|   little-endian? Describe how you figured that out.                          |
+|                                                                              |
++------------------------------------------------------------------------------+
+little-endian because it spat out the encoding for 10 last
+
+
+
+--------------------------------------------------------------------------------
+
+-----------------------------------TASK 3---------------------------------------
++------------------------------------------------------------------------------+
+| Task 3.1 Write an 8-bit representation of a number between 1 and 100 of      |
+| your choice.                                                                 |
+|                                                                              |
++------------------------------------------------------------------------------+
+00001111
+
++------------------------------------------------------------------------------+
+| Task 3.2 Write the negative of that number using 2's complement encoding.    |
+|                                                                              |
++------------------------------------------------------------------------------+
+11110001
+
++------------------------------------------------------------------------------+
+| Task 3.3 Use pack_data to get the binary representation of that number as an |
+| int.                                                                         |
+|                                                                              |
++------------------------------------------------------------------------------+
+b'\xff\xff\xff\xf1'
++------------------------------------------------------------------------------+
+| Task 3.4 Compare the negative number you computed by hand to the result of   |
+| packing the negative number as an int.                                       |
+|                                                                              |
++------------------------------------------------------------------------------+
+xf1 would be 15 and 1 which when turned into binary would look like 11110001
+
++------------------------------------------------------------------------------+
+| Optional Task 3: try encoding data using some of these types and inspect the |
+| bytes. Note that not all data can be encoded with all types. Log anything    |
+| you noticed that you found interesting.                                      | 
+|                                                                              |
++------------------------------------------------------------------------------+
+Put your answer here.
+--------------------------------------------------------------------------------
+
+-----------------------------------TASK 4---------------------------------------
++------------------------------------------------------------------------------+
+| Task 4.1 Compare the result of packing 0.25 to -0.25 as a double as the      |
+| number format. In particular, compare the sign bit(s), exponent (e) and      |
+| mantissa (m).                                                                |
+|                                                                              |
++------------------------------------------------------------------------------+
+00111110 10000000 00000000 00000000
+10111110 10000000 00000000 00000000
+everything is the same except the sign bit
+
++------------------------------------------------------------------------------+
+| Task 4.2 Compare double to float: how many bits are in each?                 |
+|                                                                              |
++------------------------------------------------------------------------------+
+00111111 11010000 00000000 00000000 00000000 00000000 00000000 00000000
+the number of bits is double the amount in float with float having 32 and double having 64
+
++------------------------------------------------------------------------------+
+| Task 4.3 Why would Python language designers use a double to represent       |
+| floating point numbers?                                                      |
+|                                                                              |
++------------------------------------------------------------------------------+
+If you choose to represent a fraction with more bits you can get a more accurate estimate for every number.
+
++------------------------------------------------------------------------------+
+| Task 4 -- BONUS (optional) Does Python follow the IEEE 754 standard?         |
+|                                                                              |
++------------------------------------------------------------------------------+
+Put your answer here.
+--------------------------------------------------------------------------------
+
+
+
+-----------------------------------OVERALL--------------------------------------
++------------------------------------------------------------------------------+
+| Did you encounter any problems while doing this assignment? If so, how did   |
+| you resolve them?                                                            |
++------------------------------------------------------------------------------+
+A few syntax errors with trying to memoize lagrassian cipher that were fixed pretty quickly.
+
+
++------------------------------------------------------------------------------+
+| Do you have any additional comments about this assignment?                   |
++------------------------------------------------------------------------------+
+It was fun to apply a concept that I have seen before (Caesar cipher) and apply it to a program that can automate it.
+
+

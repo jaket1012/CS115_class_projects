@@ -1,0 +1,61 @@
+#==============================================================================#
+#                              CS 115 Lab 8 Report                             #
+#==============================================================================#
++------------------------------------------------------------------------------+
+| Fill in your name and the Stevens Honor Code pledge on the following lines.  |
+| Failure to fill this in will result in deducted marks.                       |
++------------------------------------------------------------------------------+
+Name:Jake Talvy
+
+Pledge:I pledge my honor that I have abided by the Stevens Honor System.
+
++------------------------------------------------------------------------------+
+| If you have discussed this assignment with other students in the class, list |
+| them below (write "None" if you worked alone). Additionally, list any        |
+| additional resources you consulted.                                          |
++------------------------------------------------------------------------------+
+Collaborators:None
+
+Sources:None
+
+
++------------------------------------------------------------------------------+
+| Task 2.1: For each of the following, is it a Reference Duplication, a        |
+| Shallow Copy, or a Deep Copy?                                                |
++------------------------------------------------------------------------------+
+method_1:Reference Duplication
+
+method_2:Basic Copy
+
+method_3:Basic Copy
+
+method_4:Reference Duplication
+
+method_5:Basic Copy
+
+method_6:Basic copy
+
+method_7:Basic Copy
+
+method_8:Deep Copy
+
+
++------------------------------------------------------------------------------+
+| Task 2.2: How did you figure out the above? What strategies did you choose   |
+| to use? What limitations did you encounter?                                  |
++------------------------------------------------------------------------------+
+I used a combination of what we learned in class and thinking about what the code would do when it is ran. If the code just sets something in the list to the same item from another list I know it will have the same reference so it will either be a deep or shallow copy. The limitations are that I haven't actually tested anything so without running the code to check I'm just guessing what will happen based on what I know.
+
++------------------------------------------------------------------------------+
+| Did you encounter any problems while doing this assignment? If so, how did   |
+| you resolve them?                                                            |
++------------------------------------------------------------------------------+
+When it tried to change a list in a list in a list it wasn't making a deep copy so I had to make a helper function that went one step further to make sure that every list was a deep copy and I also had to change check_copy_3d so that it checked if you modified one it wouldn't change the other
+
+
++------------------------------------------------------------------------------+
+| Do you have any additional comments about this assignment?                   |
++------------------------------------------------------------------------------+
+Put your answer here.
+
+
